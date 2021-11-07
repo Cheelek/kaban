@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kaban/pages/HomePage.dart';
+import 'package:kaban/pages/flag.dart';
 
 void main() {
   runApp(const MyAPP());
@@ -10,7 +11,7 @@ class MyAPP extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:HomePage() ,
+      home:Flag() ,
     );
   }
 }
